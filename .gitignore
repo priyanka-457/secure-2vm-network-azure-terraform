@@ -1,0 +1,43 @@
+
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Terraform saved plan files
+*.tfplan
+*.plan
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Private keys and certificates
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Environment files
+.env
+.env.*
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+
