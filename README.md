@@ -4,7 +4,7 @@
 
 This project deploys a secure two-virtual-machine network in Microsoft Azure using Terraform.
 
-It uses a Windows Server virtual machine as a jumpbox to access a private Ubuntu Linux virtual machine. The Ubuntu VM does not have a public IP address and accepts SSH connections only from the Windows jumpbox.
+It contanis two vms that are windows vm 2022 and a linux vm 22 .
 
 The infrastructure is deployed and managed using Infrastructure as Code (IaC) with Terraform.
 
